@@ -1,0 +1,9 @@
+txt1 = "We are the so-called \"Vikings\" from the north." # Double Quotes
+txt2 = "We are the so-called \\Vikings\\ from the north." # Backslash
+txt3 = "We are the so-called \nVikings\n from the north." # New Line
+txt4 = "We are the so-called \rVikings\r from the north." # Carriage Return
+txt5 = "We are the so-called \tVikings\t from the north." # Tab
+txt6 = "We are the so-called \bVikings\b from the north." # Backspace
+txt7 = "We are the so-called \fVikings\f from the north." # Form Feed
+txt8 = "We are the so-called \oooVikings\ooo from the north." # Octal value
+txt9 = "We are the so-called \xhhVikings\xhh from the north." # Hex value
