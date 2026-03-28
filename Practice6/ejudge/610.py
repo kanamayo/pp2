@@ -1,0 +1,5 @@
+n = int(input())
+a = list(map(int, input().split()))
+t = list(map(lambda x: bool(x), a))
+# print(t)
+print(sum(t))
