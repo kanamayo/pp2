@@ -1,0 +1,1 @@
+This project features music by Tyler, The Creator (Columbia Records) and Sheena Ringo (EMI Music Japan). All rights to the audio files belong to the respective artists and their labels.
