@@ -10,7 +10,7 @@ clock = pygame.time.Clock()
 running = True
 pos_x = width / 2
 pos_y = height / 2
-WHITE = (255, 255, 255)\
+WHITE = (255, 255, 255)
 
 clock_face = pygame.image.load("./sprites/watch.png")
 secondHand = pygame.image.load("./sprites/seconds.png")
