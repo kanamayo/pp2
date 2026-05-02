@@ -2,8 +2,6 @@ import psycopg2
 from config import load_config
 
 def create_tables():
-    """ Create tables in the PostgreSQL database """
-    # We wrap the SQL string in a list [] so the 'for' loop treats it as one command
     commands = [
         """
         CREATE TABLE IF NOT EXISTS phonebooktable (
@@ -12,7 +10,7 @@ def create_tables():
         )
         """
     ]
-    
+
     conn = None
     try:
         print("Connecting to the PostgreSQL database...")
@@ -26,11 +24,9 @@ def create_tables():
                 
     except (psycopg2.DatabaseError, Exception) as error:
         print(f"Error occurred: {error}")
-    
     finally:
         if conn is not None:
             conn.close()
             print("Database connection closed.")
-
 if __name__ == '__main__':
     create_tables()
