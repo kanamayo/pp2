@@ -1,0 +1,50 @@
+[
+    {
+        "username": "Erkanat Mukhamet",
+        "email": "erkanat.m@family.com",
+        "birthday": "1988-03-10",
+        "group": "Family",
+        "phones": [
+            {
+                "phone": "87078704100",
+                "type": "home"
+            }
+        ]
+    },
+    {
+        "username": "Aidana Bolatova",
+        "email": "aidana.b@workmail.kz",
+        "birthday": "1992-11-20",
+        "group": "Work",
+        "phones": [
+            {
+                "phone": "87025554433",
+                "type": "work"
+            }
+        ]
+    },
+    {
+        "username": "Alisher Omirbek",
+        "email": "alisher.o@example.com",
+        "birthday": "1995-05-15",
+        "group": "Friend",
+        "phones": [
+            {
+                "phone": "87019876543",
+                "type": "mobile"
+            }
+        ]
+    },
+    {
+        "username": "Serik Amirbek",
+        "email": "serik.a@provider.net",
+        "birthday": "1990-07-25",
+        "group": "Other",
+        "phones": [
+            {
+                "phone": "123456789",
+                "type": "mobile"
+            }
+        ]
+    }
+]
